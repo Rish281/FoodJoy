@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FoodJoy - Personalized Food Ordering App</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">
+        <i class="fas fa-utensils"></i>
+        <span>FoodJoy</span>
+      </div>
+      <nav class="main-nav">
+        <a href="#features">Features</a>
+        <a href="#demo">Demo</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#testimonials">Testimonials</a>
+      </nav>
+      <div class="header-actions">
+        <button class="btn btn-primary subscribe-btn">Subscribe Now</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <h1>Your Personalized Food Experience</h1>
+          <p>Order food your way with our customizable app. Choose your preferences, dietary needs, and favorite cuisines for a tailored dining experience.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary">
+              View Demo
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+          <div class="ratings">
+            <div class="stars">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
+            <div class="rating-text">
+              <span>4.9/5</span> from over 2,000 reviews
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- App Demo Section -->
+    <section id="demo" class="demo">
+      <div class="container">
+        <div class="section-header">
+          <h2>See How It Works</h2>
+          <p>Watch our demo to see how easy it is to customize your food ordering experience.</p>
+        </div>
+        <div class="demo-tabs">
+          <div class="tabs-header">
+            <button class="tab-btn active" data-tab="video">Video Demo</button>
+            <button class="tab-btn" data-tab="features">Key Features</button>
+          </div>
+          <div class="tabs-content">
+            <div class="tab-content active" id="video-tab">
+              <div class="video-container">
+                <div class="video-placeholder">
+                  <h3>App Demo</h3>
+                  <p>See FoodJoy in action</p>
+                  <button class="btn btn-light play-btn">
+                    <i class="fas fa-play"></i>
+                    Play Demo
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="tab-content" id="features-tab">
+              <div class="features-grid">
+                <div class="feature-card">
+                  <h3>Personalized Recommendations</h3>
+                  <p>Our AI-powered system learns your preferences and suggests meals you'll love based on your past orders and dietary preferences.</p>
+                </div>
+                <div class="feature-card">
+                  <h3>Dietary Customization</h3>
+                  <p>Set your dietary restrictions and preferences once, and we'll only show you food options that match your needs.</p>
+                </div>
+                <div class="feature-card">
+                  <h3>Real-time Order Tracking</h3>
+                  <p>Follow your order from preparation to delivery with our real-time tracking system. Know exactly when your food will arrive.</p>
+                </div>
+                <div class="feature-card">
+                  <h3>Subscription Benefits</h3>
+                  <p>Subscribers get exclusive access to premium restaurants, free delivery, and special discounts based on their subscription tier.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+      <div class="container">
+        <div class="section-header">
+          <h2>Personalized Features</h2>
+          <p>Our app adapts to your preferences, making food ordering a delightful experience.</p>
+        </div>
+        <div class="features-grid">
+          <div class="feature-box">
+            <div class="feature-icon red">
+              <i class="fas fa-utensils"></i>
+            </div>
+            <h3>Dietary Preferences</h3>
+            <p>Set your dietary restrictions and preferences for personalized menu recommendations.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon yellow">
+              <i class="fas fa-cog"></i>
+            </div>
+            <h3>Customizable Interface</h3>
+            <p>Arrange the app layout to prioritize the features you use most frequently.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon red">
+              <i class="fas fa-bell"></i>
+            </div>
+            <h3>Smart Notifications</h3>
+            <p>Receive alerts about deals on your favorite foods and restaurants.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon yellow">
+              <i class="fas fa-clock"></i>
+            </div>
+            <h3>Order Scheduling</h3>
+            <p>Schedule orders in advance for delivery at your preferred time.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon red">
+              <i class="fas fa-star"></i>
+            </div>
+            <h3>Loyalty Rewards</h3>
+            <p>Earn points with every order and redeem them for discounts and free items.</p>
+          </div>
+          <div class="feature-box">
+            <div class="feature-icon yellow">
+              <i class="fas fa-shield-alt"></i>
+            </div>
+            <h3>Quality Assurance</h3>
+            <p>Rate your experience and help maintain high food quality standards.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Subscription Tiers -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+        <div class="section-header">
+          <h2>Choose Your Plan</h2>
+          <p>Select a subscription tier that matches your food ordering needs.</p>
+        </div>
+        <div class="pricing-grid">
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Basic</h3>
+              <p>For occasional food orders</p>
+              <div class="price">
+                <span class="amount">$4.99</span>
+                <span class="period">/month</span>
+              </div>
+            </div>
+            <div class="pricing-content">
+              <ul class="pricing-features">
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Standard Food Quality</h4>
+                    <p>Access to all standard menu items</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Basic Customization</h4>
+                    <p>Limited menu customization options</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Standard Delivery</h4>
+                    <p>Regular delivery times and fees</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-footer">
+              <button class="btn btn-outline subscribe-btn" data-plan="basic">Subscribe</button>
+            </div>
+          </div>
+          <div class="pricing-card popular">
+            <div class="popular-tag">POPULAR</div>
+            <div class="pricing-header">
+              <h3>Premium</h3>
+              <p>For regular food enthusiasts</p>
+              <div class="price">
+                <span class="amount">$9.99</span>
+                <span class="period">/month</span>
+              </div>
+            </div>
+            <div class="pricing-content">
+              <ul class="pricing-features">
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Premium Food Quality</h4>
+                    <p>Access to premium menu items and restaurants</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Advanced Customization</h4>
+                    <p>Extensive menu customization options</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Free Delivery</h4>
+                    <p>No delivery fees on orders over $15</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Priority Support</h4>
+                    <p>Faster customer service response</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-footer">
+              <button class="btn btn-primary subscribe-btn" data-plan="premium">Subscribe</button>
+            </div>
+          </div>
+          <div class="pricing-card">
+            <div class="pricing-header">
+              <h3>Gourmet</h3>
+              <p>For culinary connoisseurs</p>
+              <div class="price">
+                <span class="amount">$19.99</span>
+                <span class="period">/month</span>
+              </div>
+            </div>
+            <div class="pricing-content">
+              <ul class="pricing-features">
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Gourmet Food Quality</h4>
+                    <p>Access to exclusive high-end restaurants</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Complete Customization</h4>
+                    <p>Full menu customization with chef notes</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Priority Delivery</h4>
+                    <p>Expedited delivery on all orders</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Exclusive Events</h4>
+                    <p>Invitations to food tasting events</p>
+                  </div>
+                </li>
+                <li>
+                  <i class="fas fa-check"></i>
+                  <div>
+                    <h4>Personal Food Concierge</h4>
+                    <p>Dedicated support for special requests</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="pricing-footer">
+              <button class="btn btn-outline subscribe-btn" data-plan="gourmet">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="pricing-note">
+          <p>All plans include a 14-day free trial. Cancel anytime.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <h2>What Our Users Say</h2>
+          <p>Hear from our satisfied users and restaurant partners about their experience with FoodJoy.</p>
+        </div>
+        <div class="testimonials-grid">
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-user">
+                <div class="avatar">JD</div>
+                <div class="user-info">
+                  <h3>Jessica Davis</h3>
+                  <p>Premium Subscriber</p>
+                </div>
+              </div>
+              <div class="testimonial-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-content">
+              <p>"The personalization options are amazing! I have specific dietary needs, and FoodJoy makes it so easy to find restaurants that cater to them. The premium subscription is worth every penny for the free delivery alone."</p>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-user">
+                <div class="avatar">MR</div>
+                <div class="user-info">
+                  <h3>Michael Rodriguez</h3>
+                  <p>Gourmet Subscriber</p>
+                </div>
+              </div>
+              <div class="testimonial-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-content">
+              <p>"As a foodie, I love the Gourmet tier. I've discovered so many high-end restaurants I wouldn't have known about otherwise. The exclusive events are fantastic too - I attended a chef's tasting last month that was incredible!"</p>
+            </div>
+          </div>
+          <div class="testimonial-card">
+            <div class="testimonial-header">
+              <div class="testimonial-user">
+                <div class="avatar">SC</div>
+                <div class="user-info">
+                  <h3>Sarah Chen</h3>
+                  <p>Restaurant Owner</p>
+                </div>
+              </div>
+              <div class="testimonial-stars">
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+                <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-content">
+              <p>"As a restaurant owner, partnering with FoodJoy has been a game-changer. Their subscription model brings us consistent customers, and the quality-focused tiers help us showcase our premium dishes to the right audience. Our revenue has increased by 30% since joining!"</p>
+            </div>
+          </div>
+        </div>
+        <div class="testimonials-note">
+          <p>Join over 10,000 satisfied users and 500+ restaurant partners</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta">
+      <div class="container">
+        <h2>Ready to Transform Your Food Ordering Experience?</h2>
+        <p>Join thousands of satisfied users who have customized their food journey with FoodJoy.</p>
+        <button class="btn btn-yellow subscribe-btn">Subscribe Today</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <div class="footer-logo">
+            <i class="fas fa-utensils"></i>
+            <span>FoodJoy</span>
+          </div>
+          <p>Your personalized food ordering experience since 2023.</p>
+        </div>
+        <div class="footer-col">
+          <h3>App</h3>
+          <ul>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#pricing">Pricing</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Company</h3>
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Careers</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Legal</h3>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="current-year"></span> FoodJoy App. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Subscription Modal -->
+  <div id="subscription-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <h2>Get Your Subscription</h2>
+      <p>Fill out the form below to start your food journey with us.</p>
+      <form id="subscription-form" class="subscription-form">
+        <div class="form-group">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+        <div class="form-group">
+          <label>Select Subscription Plan</label>
+          <div class="radio-group">
+            <div class="radio-option">
+              <input type="radio" id="basic" name="plan" value="basic">
+              <label for="basic">Basic ($4.99/month)</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="premium" name="plan" value="premium" checked>
+              <label for="premium">Premium ($9.99/month)</label>
+            </div>
+            <div class="radio-option">
+              <input type="radio" id="gourmet" name="plan" value="gourmet">
+              <label for="gourmet">Gourmet ($19.99/month)</label>
+            </div>
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary">Subscribe Now</button>
+        <p class="form-note">By subscribing, you agree to our Terms of Service and Privacy Policy.</p>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="toast">
+    <div class="toast-content">
+      <p id="toast-message"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
